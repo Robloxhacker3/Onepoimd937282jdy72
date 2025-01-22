@@ -162,12 +162,17 @@ end)
 createButton("Sniper", UDim2.new(0.05, 0, 1.4, 0), function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Sniper"))()
 end)
-createButton("fe neko girl", UDim2.new(0.05, 0, 1.5, 0), funtion()
+
+createButton("fe neko girl", UDim2.new(0.05, 0, 1.5, 0), function()
 DisableFlingHealthBar = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Neko"))()
 end)
-createButton("fe ak 47", UDim2.new(0.05, 0, 1.6, 0), funtion()
+
+createButton("fe ak 47", UDim2.new(0.05, 0, 1.6, 0), function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/AK-47"))()
+end)
+createButton("cool gunz"), Udim2.new(0.05, 0, 1.7, 0), function()
+loadstring(game:HttpGet('https://paste.ee/r/bXruF/0'))()
 end)
 -- Add Toggleable Cube
 local toggleButton = Instance.new("TextButton")
